@@ -7,38 +7,11 @@ public class MaxService {
         }
     }
 }
-//<build>
-//<plugins>
-//<plugin>
-//<groupId>org.apache.maven.plugins</groupId>
-//<artifactId>maven-surefire-plugin</artifactId>
-//<version>2.22.2</version>
-//<configuration>
-//<failIfNoTests>true</failIfNoTests>
-//</configuration>
-//</plugin>
-//
-//<plugin>
-//<groupId>org.jacoco</groupId>
-//<artifactId>jacoco-maven-plugin</artifactId>
-//<version>0.8.5</version>
-//
-//<executions>
-//<execution>
-//<id>prepare-agent</id>
-//<goals>
-//<goal>prepare-agent</goal>
-//</goals>
-//</execution>
-//
-//<execution>
-//<id>report</id>
-//<phase>verify</phase>
-//<goals>
-//<goal>report</goal>
-//</goals>
-//</execution>
-//</executions>
-//</plugin>
-//</plugins>
-//</build>
+//<!--  -->
+//<!--    <module version="4">-->
+//<!--        <component name="NewModuleRootManager">-->
+//<!--            <content url="file://$MODULE_DIR$">-->
+//<!--                <sourceFolder url="file://$MODULE_DIR$/target" type="java-resource" />-->
+//<!--            </content>-->
+//<!--        </component>-->
+//<!--    </module>-->
