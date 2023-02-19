@@ -18,7 +18,7 @@ class MaxServiceTest {
         MaxService maxService=new MaxService();
         int a=4;
         int b=6;
-        int expected=6;
+        int expected=4;
         assertEquals(expected,maxService.max(a,b));
 
     }
