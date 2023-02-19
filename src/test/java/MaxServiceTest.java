@@ -22,4 +22,13 @@ class MaxServiceTest {
         assertEquals(expected,maxService.max(a,b));
 
     }
+    @Test
+    public void findMax2(){
+        MaxService maxService=new MaxService();
+        int a=4;
+        int b=7;
+        int expected=7;
+        assertEquals(expected,maxService.max(a,b));
+
+    }
 }
