@@ -5,42 +5,32 @@ import static org.junit.jupiter.api.Assertions.*;
 class MaxServiceTest {
 
     @Test
-    public void findMax(){
-        MaxService maxService=new MaxService();
-        int a=5;
-        int b=3;
-        int expected=5;
-        assertEquals(expected,maxService.max(a,b));
+    public void findMax() {
+        MaxService maxService = new MaxService();
+        int a = 5;
+        int b = 3;
+        int expected = 5;
+        assertEquals(expected, maxService.max(a, b));
 
     }
+
     @Test
-    public void findMax1(){
-        MaxService maxService=new MaxService();
-        int a=4;
-        int b=6;
-        int expected=6;
-        assertEquals(expected,maxService.max(a,b));
+    public void findMax1() {
+        MaxService maxService = new MaxService();
+        int a = 4;
+        int b = 6;
+        int expected = 6;
+        assertEquals(expected, maxService.max(a, b));
 
     }
+
     @Test
-    public void findMax2(){
-        MaxService maxService=new MaxService();
-        int a=4;
-        int b=7;
-        int expected=7;
-        assertEquals(expected,maxService.max(a,b));
+    public void findMax2() {
+        MaxService maxService = new MaxService();
+        int a = 4;
+        int b = 7;
+        int expected = 7;
+        assertEquals(expected, maxService.max(a, b));
 
     }
-<<<<<<< HEAD
-    @Test
-    public void findMax3(){
-        MaxService maxService=new MaxService();
-        int a=4;
-        int b=9;
-        int expected=9;
-        assertEquals(expected,maxService.max(a,b));
-
-    }
-=======
->>>>>>> 984b9d8ad1de9bcc7b6e4727bc7027b020de190c
 }
