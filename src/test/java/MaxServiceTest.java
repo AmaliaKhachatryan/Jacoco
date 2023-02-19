@@ -31,6 +31,7 @@ class MaxServiceTest {
         assertEquals(expected,maxService.max(a,b));
 
     }
+<<<<<<< HEAD
     @Test
     public void findMax3(){
         MaxService maxService=new MaxService();
@@ -40,4 +41,6 @@ class MaxServiceTest {
         assertEquals(expected,maxService.max(a,b));
 
     }
+=======
+>>>>>>> 984b9d8ad1de9bcc7b6e4727bc7027b020de190c
 }
